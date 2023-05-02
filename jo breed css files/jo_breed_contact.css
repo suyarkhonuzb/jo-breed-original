@@ -1,0 +1,16 @@
+.contact{
+    padding-top: 150px;
+}
+
+footer{
+    margin-top: 100px;
+    padding: 100px 0;
+    background: url(../jo\ breed\ images/footer-banner.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 1700px 450px;
+}
+
+#contact-brand{
+    font-size: 25px;
+}

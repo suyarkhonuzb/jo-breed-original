@@ -1,0 +1,418 @@
+
+/* Home styles */
+.home{
+    background: url(../jo\ breed\ images/main-banner.png);
+}
+
+.container_home{
+    padding-top:150px;
+    margin-top: 100px;
+}
+
+.home-welcome{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.home-banner{
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.home-position{
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.social-icons{
+    margin:3rem 0;
+}
+
+.social-icons a{
+    margin-top: 3rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    font-size: 35px;
+    transition: 1s;
+}
+
+.social-icons a:hover{
+    color:rgb(126, 126, 253);
+}
+
+.social-icons:hover .social-icons a{
+    border: none;
+    background: none;
+    outline: none;
+    transform: rotate(360deg)
+}
+
+.home-image{
+    width:533px;
+}
+
+/* Statistics styles */
+.container_statistics{
+    padding-top: 150px;
+}
+
+.statistics-item{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(0, 188, 212);
+    background: rgb(243, 243, 243);
+    padding: 30px 15px;
+}
+
+.statistics-item h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.statistics-item p{
+    font-size: 1rem;
+    margin-bottom: 0px;
+    line-height: 1rem;
+}
+
+/* /About styles */
+.container_about{
+    padding-top: 9.7rem;
+}
+
+.section-introduction{
+    font-size: 1rem;
+    color: #888;
+    letter-spacing: 1px;
+    margin-bottom: 5rem;
+}
+
+/* Services styles */
+.container_services{
+    padding-top: 9.7rem;
+}
+
+.service-item{
+    padding: 4rem 2rem;
+    text-align: center;
+    background: #f8faff;
+    border: 0;
+    margin-bottom: 1.25rem;
+}
+
+.service-item p{
+    letter-spacing: 1px;
+    color: #888;
+    transition: all 0.7s ease 0;
+}
+
+.service-btn{
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #05364d;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 2.5rem;
+}
+
+.card-body h3{
+    text-decoration: none;
+    margin-top: 2.5rem;
+}
+
+.service-item:hover{
+    background-color: #5f30ff;
+    transition: all 0.7s ease 0s;
+}
+
+.service-item:hover .service-item-data>h3,
+.service-item:hover .service-item-data>p,
+.service-item:hover .service-item-data>a{
+    color:#ffffff;
+    transition: all 0.7s ease 0s;
+}
+
+/* Reviews styles */
+.container_reviews{
+    padding-top: 9.7rem;
+}
+
+.client-image{
+    background: url(../jo\ breed\ images/testimonial-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -60px;
+    left: -100px;
+    width: 665px;
+    height: 550px;
+    transform: scale(0.8);
+}
+
+.client-image img{
+    text-align: center;
+    position: absolute;
+    right: 140px;
+    bottom: 150px;
+    width: 230px;
+    height: 255px;
+    border-radius: 0 40px 0 40px;
+    box-shadow: -1px 7px 20px 0px rgb(5 54 77 / 20%);
+}
+
+.client-item-name{
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.client-position{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1.25rem;
+    margin-bottom: 1.8rem;
+}
+
+.client-discussion{
+    color: rgb(136, 136, 136);
+}
+.testmonial-stars i{
+    color: hwb(43 9% 0%);
+    font-size: 1.5rem;
+    margin-right: 1.2rem;
+}
+/* Portfolio styles */
+.container_portfolio{
+    padding-top: 9.7rem;
+}
+
+.port-link{
+    display: inline-block;
+    margin-right: 2.5rem;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(5, 54, 77);
+    cursor: pointer;
+    transition: all 0.4s ease 0
+}
+
+.port-link:hover{
+    color: rgb(19, 69, 230);
+}
+
+.active-port{
+    color:rgb(19, 69, 230);
+}
+
+.portfolio-item{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    transition: all 0.4s ease 0s;
+}
+
+.portfolio-item:hover .overlay{
+    visibility: visible;
+    background-color: #5f30ff;
+    opacity:0.8;
+    top: 20px;
+    left: 20px;
+}
+
+.short-info{
+    visibility: hidden;
+    position: absolute;
+    bottom: 44px;
+    left: 80px;
+    color:#ffffff;
+    opacity: 0;
+    transition: all 0.4s ease 0s;
+}
+
+.portfolio-item:hover .short-info{
+    visibility: visible;
+    opacity: 1;
+}
+
+.short-info>h4>a{
+    color:#ffffff;
+}
+
+/* Blog styles */
+.container_blog{
+    margin-top: 150px;
+}
+
+.blog-item{
+    margin-top: 15px;
+}
+
+.blog-item:hover{
+    box-shadow: 0 10px 30px rgb(0 0 0 / 13%);
+}
+
+.blog-image{
+    overflow: hidden;
+}
+
+.blog-image img{
+    transition: all 0.4s ease 0s;
+    vertical-align: middle;
+}
+
+.blog-item:hover .blog-image img{
+    transform: scale(1.1); 
+}
+
+.blog-info{
+    background-color: #f8faff;
+    padding: 2rem 1.8rem 2.3rem;
+    transition: all 0.4s ease 0s;
+    padding-bottom: 3.1rem;
+}
+
+.blog-item:hover .blog-info {
+    background: #fff;
+}
+
+.blog-info>a{
+    font-size: 0.97rem;
+    text-decoration: none;
+    margin-top: 1.8rem;
+    margin-right: 1.8rem;
+    color: #797979;
+    transition: all 0.4s ease 0;
+}
+
+.blog-info a:hover{
+    color: #5f30ff;
+}
+
+.blog-info-title{
+    font-weight: 700;
+    color: #05364d;
+    font-size: 1.5rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.blog-info-title:hover{
+    cursor: pointer;
+}
+
+.blog-info p{
+    font-size: 1.1rem;
+}
+
+#blog-info-link{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #05364d;
+}
+
+#blog-info-link:hover{
+    color: #ed239f99;
+}
+
+/* Footer styles */
+footer{
+    padding-top: 100px;
+    background: url(../jo\ breed\ images/footer-banner.svg);
+    background-position: right 10px;
+    background-size:cover;
+    background-size: 1740px 500px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 399px;
+}
+
+.footer-brand{
+    text-align: center;
+}
+
+.footer-links{
+    margin-top: 30px;
+}
+
+.footer-link{
+    margin-right: 1rem;
+    list-style: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color:  rgb(255, 255, 255);
+    padding: 0px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.footer-icons{
+    margin-bottom: 70px;
+}
+
+.footer-icon{
+    margin-top: 30px;
+    margin-right: 18px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+   align-items: center;
+    border-radius: 50%;
+    color: #05364d;
+    font-size: 22px;
+    list-style: none;
+    background-color: #ffffff;
+}
+
+.footer-icon:hover{
+    cursor: pointer;
+}
+
+.footer-icon:hover{
+    display: flexbox;
+    align-items: flex-end;
+    background: linear-gradient(to right, rgb(19, 69, 230) 0%, rgb(237, 35, 159) 51%, rgb(19, 69, 230) 0%) 0% 0% / 198%;
+    color: #ffffff;
+}
+
+.footer-icon i{
+    vertical-align: middle;
+}
+
+.container_footer p{
+    font-size: 1.25rem;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* Media queries */
+@media only screen and (max-width:991px) {
+    .container{
+        width: 100%;
+        margin: 0 auto ;
+    }
+    .client-item-image{
+        background: none;
+        position: static;
+    }
+
+    .client-item-image img{
+        position: static;
+    }
+}
