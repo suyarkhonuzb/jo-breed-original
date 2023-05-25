@@ -370,8 +370,9 @@ footer{
     margin-right: 18px;
     width: 50px;
     height: 50px;
-    text-align: center;
-   align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     color: #05364d;
     font-size: 22px;
@@ -380,18 +381,9 @@ footer{
 }
 
 .footer-icon:hover{
-    cursor: pointer;
-}
-
-.footer-icon:hover{
-    display: flexbox;
-    align-items: flex-end;
     background: linear-gradient(to right, rgb(19, 69, 230) 0%, rgb(237, 35, 159) 51%, rgb(19, 69, 230) 0%) 0% 0% / 198%;
     color: #ffffff;
-}
-
-.footer-icon i{
-    vertical-align: middle;
+    cursor: pointer;
 }
 
 .container_footer p{
